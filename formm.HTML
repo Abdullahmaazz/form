@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    </head>
+    <style>
+        h1{
+            text-align: center;
+            font-style: italic;
+            font-size: xx-large;
+        }
+        input{
+            border-radius: 5px;
+        }
+        form{
+            margin-left: 500px;
+      
+            font-style: italic;
+       font-family: arial black;
+            width: 500px;
+            text-align: center;
+            /* height: 900px; */
+            /* box-shadow: 40px; */
+            border-radius: 40px;
+            /* background-color: black; */
+        }
+    </style>
+    <body style="background-color: chocolate;">
+        <h1><u>Form</u></h1>
+<form>
+<div>
+    <label>Name:</label>
+    <input type="text" name="name" required> 
+</div>
+
+<br>
+
+<div>
+    <label>Password:</label>
+    <input type="text" name="name" required placeholder="Enter a Password"> 
+</div>
+
+<br>
+
+
+<div>
+    <label>Email:</label>
+    <input type="text" name="email" > 
+</div>
+
+<br>
+
+<div>
+    <label>Date:</label>
+    <input type="text" name="date" > 
+</div>
+
+<br>
+
+<div>
+    <label>Progress</label>
+    <progress value="50" max="100"></progress>
+</div>
+
+<br>
+
+<div>
+    <label>Bouns:</label>
+    <input type="number" min="10"  max="50" name="number"> 
+</div>
+
+<br>
+
+<div>
+    <label>Are You Eligible</label>
+<br>
+    HTML <input type="checkbox" name="eligible"><br>
+    CSS <input type="checkbox" name="eligible"><br>
+    PHP <input type="checkbox" name="eligible"><br>
+    C# <input type="checkbox" name="eligible"><br>
+</div>
+
+<br>
+
+<div>
+    <label>Gender</label><br>
+    Male <input type="radio" name="gender"><br>
+    Female <input type="radio" name="gender">
+</div>
+<br>
+
+
+
+<br>
+
+<div>
+    <label>Cars</label>
+    <select>
+    <option selected >Select Car</option>
+    <option>Reborn</option>
+    <option>Civic</option>
+    <option>Sonata</option>
+    <option>MG</option>
+</select>
+</div>
+
+<br>
+
+<div>
+    <label>Month</label>
+    <input type="month" name="month">
+</div>
+
+<br>
+
+<div>
+    <label>Payment</label>
+    <input type="text" name="Payment" list="paymentlist">
+</div>
+
+<br>
+
+<datalist id="paymentlist">
+<option value="Cash on deleviery"></option>
+<option value="Net Banking"></option>
+<option value="Debit Card"></option>
+
+</datalist>
+<button class="btn btn-danger">Submit</button>
+</form>
+
+    </body>
+</html>
